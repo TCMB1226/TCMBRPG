@@ -4,6 +4,7 @@ using System.Collections;
 public class Combat : MonoBehaviour {
     public GameObject Attacker;
     public GameObject Fighter;
+    public 
 
 
     // Use this for initialization
