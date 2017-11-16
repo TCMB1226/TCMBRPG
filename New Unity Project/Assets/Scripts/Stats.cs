@@ -2,14 +2,14 @@
 using System.Collections;
 
 public class Stats : MonoBehaviour {
-    public int Damage;
-    public int Defence;
-    public int Health;
-    public int Money;
-    public int XP;
-    public int Level;
-    public int Energy;  //used while selecting quests
-    public int Stamina; // used while attacking
+    public int Damage = 1;
+    public int Defence = 5;
+    public int Health = 100;
+    public int Money = 100;
+    public int XP = 0;
+    public int Level = 0;
+    public int Energy = 100;  //used while selecting quests
+    public int Stamina = 100; // used while attacking
 
 	// Use this for initialization
 	void Start () {
@@ -18,6 +18,8 @@ public class Stats : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+	    
 	}
+    
+    
 }
